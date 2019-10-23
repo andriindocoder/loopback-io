@@ -6,11 +6,8 @@
   "mongodbDs": {
     "host": "localhost",
     "port": 27017,
-    "url": "",
     "database": "lbDB",
-    "password": "",
     "name": "mongodbDs",
-    "user": "",
     "useNewUrlParser": true,
     "connector": "mongodb"
   }

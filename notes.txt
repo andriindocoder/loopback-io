@@ -25,3 +25,6 @@ Datasource : Backend system (MysQl, mongoDB, Postgres)
 Models <--> Datbase Juggler <--> Connectors --> (MySQL/MongoDB/Postgres Driver)
 
 $ lb datasource
+MOngo : localhost 27017
+
+npm run dev
