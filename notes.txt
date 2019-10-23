@@ -10,8 +10,18 @@ Why Loopback?
         Separable components fileStorage, third party, Oauth2.0 udah termasuk
         Punya access control untuk api yang kompleks
 
-npm i -g loopback-cli
+npm install -g loopback-cli
 $ lb 
 Loopback 3, hello world
 Run loopback : node .
     localhost:3000/explorer
+
+    Models ada di common/models
+
+Buat : $ lb model
+
+Datasource : Backend system (MysQl, mongoDB, Postgres)
+
+Models <--> Datbase Juggler <--> Connectors --> (MySQL/MongoDB/Postgres Driver)
+
+$ lb datasource
